@@ -1,14 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './ProfileHeader.css';
 
-const ProfileHeader = (props) => {
-  let { imgurl } = props;
-    let app = (
+class ProfileHeader extends Component {
+  render() {
+    let {imgurl} = this.props;
+    return (
       <div>
         <img className="profilePic" alt= "" src={imgurl} align="center"/>
-  </div>
+      </div>
     )
-  return app;
+  }
 }
 
 export default ProfileHeader;

@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './MainContent.css';
 
-const MainContent = (props) => {
-    let app = (
+class MainContent extends Component {
+  render() {
+    let props = this.props;
+    return (
       <div>
         <div className={"mainText"} >
           <h1 align="top">{props.name}</h1>
@@ -15,7 +17,7 @@ const MainContent = (props) => {
         <br/>
       </div>
     )
-  return app;
+  }
 }
 
 export default MainContent;

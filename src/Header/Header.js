@@ -1,13 +1,14 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './Header.css';
 
-function Header() {
-    let app = (
+class Header extends Component {
+  render() {
+    return (
       <div>
-      <h1  align = "center"  className = "header">Hii Swapnil Here</h1>
-  </div>
+          <h1  align = "center"  className = "header">Hii Swapnil Here</h1>
+      </div>
     )
-  return app;
+  }
 }
 
 export default Header;
