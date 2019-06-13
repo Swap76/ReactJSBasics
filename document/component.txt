@@ -1,0 +1,6 @@
+We divide the content on a page into diffrent smaller components for easy of use and maintanibility
+
+A componet contains function which returns JSX to us and we require it at the place where we want that to be 
+
+The name of the componet should be capital first letter always because all html tags are small letter 
+
