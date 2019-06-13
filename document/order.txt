@@ -1,1 +1,6 @@
+jsx
 components
+mainIndex
+classComponents
+json 
+props
