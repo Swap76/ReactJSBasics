@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import Resume from './Resume/Resume';
 import Header from './Header/Header';
 import ProfileHeader from './ProfileHeader/ProfileHeader';
