@@ -8,4 +8,4 @@ Every JSON is valid Javascript Object but not vice versa
 
 JSON object can only be accessed as a["name"] only we cannot do a.name
 
-JSON operations are shows in src/data.js
+JSON operations are shows in ./data.js
