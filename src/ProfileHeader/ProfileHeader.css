@@ -1,0 +1,8 @@
+.profilePic{
+  border-radius: 50%;
+  border-style: solid;
+  border-color: purple;
+  float: left;
+  width: 35%;
+  height: 35%;
+}
