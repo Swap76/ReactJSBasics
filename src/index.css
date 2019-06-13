@@ -18,29 +18,31 @@ code {
 }
 
 .profilePic{
-  border-radius: 150px;
-  width: 300px;
-  height: 300px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: purple;
+  width: 35%;
+  height: 35%;
 }
 
 .mainText{
   color: #36457A;
-  padding-top: 50px;
-  padding-left: 450px;
+  padding-top: 5%;
+  padding-left: 50%;
 
 }
 
 .rollNo{
-  padding-left: 100px;
+  padding-left: 20%;
 }
 
 .college{
-  padding-left: 75px;
+  padding-left: 13%;
 }
 
 .bio{
   color: #950A51;
-  padding: 20px;
+  padding: 5%;
 }
 
 .workExperience{
@@ -48,7 +50,7 @@ code {
 }
 
 .point{
-  padding: 5px;
+  padding: 1%;
 }
 
 .work{
