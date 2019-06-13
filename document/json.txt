@@ -1,0 +1,11 @@
+It is Javascript object notation
+
+The diffrence is the keys should be enclosed in double quotes
+
+Key can be anything and value also can take any values
+
+Every JSON is valid Javascript Object but not vice versa
+
+JSON object can only be accessed as a["name"] only we cannot do a.name
+
+JSON operations are shows in src/data.js
