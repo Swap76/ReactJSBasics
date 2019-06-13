@@ -1,12 +1,12 @@
 import React from 'react';
 import './MainContent.css';
 
-function MainContent() {
+const MainContent = (props) => {
     let app = (
       <div>
         <div className={"mainText"} >
-          <h1 align="top">Swapnil Satish Shinde</h1>
-          <h2 className={"rollNo"}> 117A1076</h2>
+          <h1 align="top">{props.name}</h1>
+          <h2 className={"rollNo"}> {props.rollno}</h2>
           <h2 className={"college"}>SIES GST, Nerul</h2>
         </div>
         <br/>

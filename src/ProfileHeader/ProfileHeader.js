@@ -1,10 +1,11 @@
 import React from 'react';
 import './ProfileHeader.css';
 
-function ProfileHeader() {
+const ProfileHeader = (props) => {
+  let { imgurl } = props;
     let app = (
       <div>
-        <img className="profilePic" src="https://avatars3.githubusercontent.com/u/37082605?s=460&v=4" align="center"/>
+        <img className="profilePic" alt= "" src={imgurl} align="center"/>
   </div>
     )
   return app;

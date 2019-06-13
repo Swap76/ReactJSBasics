@@ -11,11 +11,16 @@ import * as serviceWorker from './serviceWorker';
 
 // ReactDOM.render(<Resume/>, document.getElementById('root')); // This way we can render the element
 const MainPage = () => {
+  const data = {
+    name: "Swapnil Satish Shinde",
+    rollno: "117A1076",
+    imgurl: "https://avatars3.githubusercontent.com/u/37082605?s=460&v=4"
+  };
   const mainPage = (
     <div>
       <Header/>
-      <ProfileHeader/>
-      <MainContent/>
+      <ProfileHeader {...data} />
+      <MainContent {...data} />
     </div>
   );
   

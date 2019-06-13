@@ -1,0 +1,7 @@
+We create a class name as component name then we will extend that with component 
+
+We must import { Component } from 'react';
+
+This class has a render function by default in which we write the code and return the jsx directly or using variables
+
+Class always has a property called this.props we can destructure it and take imp things to us
