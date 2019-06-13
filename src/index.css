@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.myTitle {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black
+}
+
+.profilePic{
+  border-radius: 150px;
+  width: 300px;
+  height: 300px;
+}
+
+.mainText{
+  color: #36457A;
+  padding-top: 50px;
+  padding-left: 450px;
+
+}
+
+.rollNo{
+  padding-left: 100px;
+}
+
+.college{
+  padding-left: 75px;
+}
+
+.bio{
+  color: #950A51;
+  padding: 20px;
+}
+
+.workExperience{
+  list-style-type: none;
+}
+
+.point{
+  padding: 5px;
+}
+
+.work{
+  color: #094370;
+}

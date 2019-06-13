@@ -1,0 +1,1 @@
+// in react we use jsx which is a lttle diffrent than html
