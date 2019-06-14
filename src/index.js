@@ -5,6 +5,7 @@ import Resume from './Resume/Resume';
 import Header from './Header/Header';
 import ProfileHeader from './ProfileHeader/ProfileHeader';
 import MainContent from './MainContent/MainContent';
+import Weather from './Weather/Weather';
 import * as serviceWorker from './serviceWorker';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
@@ -21,6 +22,7 @@ const MainPage = () => {
       <Header/>
       <ProfileHeader {...data} />
       <MainContent {...data} />
+      <Weather />
     </div>
   );
   

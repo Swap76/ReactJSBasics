@@ -1,0 +1,3 @@
+This api is used to accept the json from servers using 
+
+this api has link as first argument 
