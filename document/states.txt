@@ -1,0 +1,11 @@
+Every Component can keep there own data base 
+
+states is acting like ram
+
+When we do a action the variables in state are going to get changed depending on response from DB
+
+As the states changes the view automatically changes using Component Did mount
+
+For updating the states we have to call the method this.setStates method with a object in it
+
+this.setStates automatically calls the render function to load the new data

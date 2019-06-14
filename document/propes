@@ -6,3 +6,4 @@ Propes are objects we can destructor them to read data from them
 
 As propes are objects readind data directlt using key is also very easy
 
+Propes are read only we cannot change them if we want to store something and change after sometime then we will save this in states

@@ -4,3 +4,4 @@ mainIndex
 classComponents
 json 
 props
+states
