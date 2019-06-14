@@ -1,0 +1,13 @@
+When we have to make multiple objects of same componenet then we can use map function this is a function of array 
+
+It is written as a.map( (value )=> {
+ // here we can write the desired code
+})
+
+const b = a.map((value) => { // Example this creates a array of squares using a 
+  return value*value;
+});
+
+This type of programming is called as functional programming insuch we dont care about what under the hood happens we are only conserned with the output and input
+
+Examples are shown in test.js

@@ -5,3 +5,6 @@ classComponents
 json 
 props
 states
+map
+filter
+test.js
