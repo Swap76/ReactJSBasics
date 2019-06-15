@@ -1,0 +1,13 @@
+REDUX is a state managment system 
+
+In redux there will be only one state which can be accesed by every component
+
+For making multipage website we need react-router
+
+There are liberies like Material UI or React Bootstrap 
+
+Reactjs.org for referance
+
+For CSS Refer https://css-tricks.com/
+
+For javaScript https://developer.mozilla.org/en-US/

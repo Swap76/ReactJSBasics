@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Resume from './Resume/Resume';
+import App from './App/App';
 import Header from './Header/Header';
 import ProfileHeader from './ProfileHeader/ProfileHeader';
 import MainContent from './MainContent/MainContent';
@@ -23,6 +24,7 @@ const MainPage = () => {
       <ProfileHeader {...data} />
       <MainContent {...data} />
       <Weather />
+      <App/>
     </div>
   );
   
