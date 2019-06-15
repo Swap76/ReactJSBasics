@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import DataCard from '../DataCard/DataCard';
 
 class App extends Component {
 
@@ -7,7 +8,8 @@ class App extends Component {
     this.state = {
       email:'',
       password:'',
-      isLoggedIn: false
+      isLoggedIn: false,
+      data:[]
     }
   }
 
@@ -41,7 +43,8 @@ class App extends Component {
       console.log(data);
       if(data.status === true){
         this.setState({
-          isLoggedIn: true
+          isLoggedIn: true,
+          data: data["data"]
         })
       } else {
         console.log("error")
@@ -51,10 +54,16 @@ class App extends Component {
   }
 
   render() {
-    let {email, password, isLoggedIn} = this.state;
+    let {email, password, isLoggedIn, data} = this.state;
     if (isLoggedIn){
       return (
-        <h1> Welcome To London</h1>
+        <div>
+          {
+            data.map((value) =>{
+              return <DataCard {...value} />
+            } )
+          }
+        </div>
       )
     } else {
         return (
