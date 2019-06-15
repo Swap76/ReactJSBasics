@@ -6,7 +6,8 @@ class App extends Component {
     super(props);
     this.state = {
       email:'',
-      password:''
+      password:'',
+      isLoggedIn: false
     }
   }
 
@@ -36,22 +37,37 @@ class App extends Component {
       }),
     })
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(data => {
+      console.log(data);
+      if(data.status === true){
+        this.setState({
+          isLoggedIn: true
+        })
+      } else {
+        console.log("error")
+      }
+    })
     .catch(err => console.log(err));
   }
 
   render() {
-    let {email, password} = this.state;
-    return (
-      <div>
-        <input  value={email} placeHolder="Enter the Email" onChange={this.updateEmail} />
-        <br/>
-        <br/>
-        <input type="password" value={password} placeHolder="Enter the Password" onChange={this.updatePassword} />
-        <br/>
-        <button onClick={this.submit} type="button">Login</button>
-      </div>
-    )
+    let {email, password, isLoggedIn} = this.state;
+    if (isLoggedIn){
+      return (
+        <h1> Welcome To London</h1>
+      )
+    } else {
+        return (
+          <div>
+          <input  value={email} placeHolder="Enter the Email" onChange={this.updateEmail} />
+          <br/>
+          <br/>
+          <input type="password" value={password} placeHolder="Enter the Password" onChange={this.updatePassword} />
+          <br/>
+          <button onClick={this.submit} type="button">Login</button>
+        </div>
+        )
+    }
   }
 }
 
