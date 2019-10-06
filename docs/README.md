@@ -1,23 +1,6 @@
 # This repo aims to help newbies in ReactJS 
 
-## Run this repo on your local server with docsify
-
-To run this project with docsify, install the docsify cli:
-
-```
-npm i docsify-cli -g
-```
-
-Once the docsify cli is installed, run the following command:
-
-```
-docsify serve docs
-```
-
-Open http://localhost:3000 to view it in the browser.
-
-
-## Created using create-react-app
+# Created using create-react-app
 
 ```
 npx create-react-app my-app
