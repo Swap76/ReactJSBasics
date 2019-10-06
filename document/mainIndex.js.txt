@@ -1,6 +1,6 @@
-In this file we will import the diffrent components together in a variable 
+In this file we will import the different components together in a variable 
 
-make use of div tag as it may contain the many components 
+Make use of div tag as it may contain the many components 
 
-Then pass that variable to the ReactDom.render this will use the paint funciton of reactDom.render to show the components on the screen 
+Then pass that variable to the ReactDom.render this will use the paint function of reactDom.render to show the components on the screen 
 
