@@ -1,3 +1,4 @@
+# This repo aims to help newbies in ReactJS
 
 <img src="https://i.imgur.com/k4nH2JK.jpg" width="1024" alt="reactjs-banner" /></img>
 
@@ -12,7 +13,23 @@
 
 ---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Run this repo on your local server with docsify
+
+To run this project with docsify, install the docsify cli:
+
+```
+npm i docsify-cli -g
+```
+
+Once the docsify cli is installed, run the following command:
+
+```
+docsify serve docs
+```
+
+Open http://localhost:3000 to view it in the browser.
+
+## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ```
 npx create-react-app my-app
@@ -52,5 +69,3 @@ npm start
 ```
 Runs the app in development mode.
 Open http://localhost:3000 to view it in the browser.
-
-
