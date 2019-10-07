@@ -1,5 +1,18 @@
 # This repo aims to help newbies in ReactJS
 
+<img src="https://i.imgur.com/k4nH2JK.jpg" width="1024" alt="reactjs-banner" /></img>
+
+---
+
+![Last Commit](https://img.shields.io/github/last-commit/Swap76/ReactJSBasics?style=for-the-badge)
+![Repository Size](https://img.shields.io/github/repo-size/Swap76/ReactJSBasics?color=blue&label=Repository%20Size&style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/Swap76/ReactJSBasics?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/Swap76/ReactJSBasics?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/Swap76/ReactJSBasics?style=for-the-badge)
+![Pull Requests](https://img.shields.io/github/issues-pr/Swap76/ReactJSBasics?style=for-the-badge)
+
+---
+
 ## Run this repo on your local server with docsify
 
 To run this project with docsify, install the docsify cli:
@@ -16,7 +29,7 @@ docsify serve docs
 
 Open http://localhost:3000 to view it in the browser.
 
-## Created using create-react-app
+## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ```
 npx create-react-app my-app
