@@ -1,26 +1,26 @@
-We divide the content on a page into diffrent smaller components for easy of use and maintanibility
+We divide the content on a page into different smaller components for easy of use and maintainability
 
-A componet contains function which returns JSX to us and we require it at the place where we want that to be 
+A component contains function which returns JSX to us and we require it at the place where we want that to be
 
-The name of the componet should be capital first letter always because all html tags are small letter 
+The name of the component should be capital first letter always because all html tags are small letter
 
-dividing wesites we create small components as header footer main body etc
+dividing websites we create small components as header footer main body etc
 
-Then we can combine these components into one 
+Then we can combine these components into one
 
-The whole component should be enclosed in div tag 
+The whole component should be enclosed in div tag
 
 A component can be combination of multiple react elements put together
 
-Every componet should be put in seprate folder because every component has at least 2 files as .js and .css 
+Every component should be put in separate folder because every component has at least 2 files as .js and .css
 
-It's recomeended to make the file name and folder name capital as components should be capital
+It's recommended to make the file name and folder name capital as components should be capital
 
-In every component file the first line import React from 'react'; is neccesary
+In every component file the first line import React from 'react'; is necessary
 
-Then we have to create a function may be arrao function the name should be capital letter first
+Then we have to create a function may be array function the name should be capital letter first
 
-Then inside the function create a variable the return it at the end of function 
+Then inside the function create a variable the return it at the end of function
 
-At last export that function so that we can import this component into 
+At last export that function so that we can import this component into
 
