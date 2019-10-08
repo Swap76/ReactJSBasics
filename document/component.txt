@@ -1,26 +1,19 @@
-We divide the content on a page into different smaller components for easy of use and maintainability
+We divide the content on a page into different smaller components for ease of use and maintainability
 
-A component contains function which returns JSX to us and we require it at the place where we want that to be
+A component contains a function which returns JSX
 
-The name of the component should be capital first letter always because all html tags are small letter
+The name of the component should always have its first letter capitalized to differ from standard HTML tags, which are always lowercase
 
-dividing websites we create small components as header footer main body etc
+Websites can be divided into small components like header, footer, main, body, etc. and those can be combined into a single reusable React component
 
-Then we can combine these components into one
+The whole component should be enclosed into a tag. A <div> is commonly used to do so.
 
-The whole component should be enclosed in div tag
+A component can contain a combination of multiple react components
 
-A component can be a combination of multiple react elements put together
+Since it is common for a component to have two files (.js and .css), it is suggested that those files are stored in a separate folder
 
-Every component should be put in separate folder because every component has at least 2 files as .js and .css
+It's recommended to name the file and folder with their first letter capitalized, following the same convention as the name of the function component
 
-It's recommended to make the file name and folder name capital as components should be capital
+In every component file the first line "import React from 'react';" is necessary
 
-In every component file the first line import React from 'react'; is necessary
-
-Then we have to create a function may be arrow function the name should be capital letter first
-
-Then inside the function create a variable then return it at the end of function 
-
-At last export that function so that we can import this component into
-
+At last, always remember to export the function so that it can be imported into another file / component
