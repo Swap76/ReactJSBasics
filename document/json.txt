@@ -1,6 +1,6 @@
 It is Javascript object notation
 
-The diffrence is the keys should be enclosed in double quotes
+The difference is the keys should be enclosed in double quotes
 
 Key can be anything and value also can take any values
 
