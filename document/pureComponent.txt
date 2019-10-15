@@ -3,7 +3,7 @@
 //import { PureComponent } from 'react';
 
 //export default class Example extends PureComponent {
-  // This won't re-render when the props DONT change
+  // This won't re-render when the props DON'T change
 //  render() {
     // ... do expensive compute on props ...
 //    return <SomeComponent someProp={props.someProp}/>
