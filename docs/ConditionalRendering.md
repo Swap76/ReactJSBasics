@@ -33,7 +33,7 @@ function MyComponent() {
 }
 ```
 
-In this example, the component is initialized with an initial state of `isLoading = true`. The conditional render happens when the `isLoading` state is checked to see wheter it is true or not.
+In this example, the component is initialized with an initial state of `isLoading = true`. The conditional render happens when the `isLoading` state is checked to see whether it is true or not.
 If the `isLoading` state is true the text, "Loading...", else the text, "Loading is finished" is rendered.
 
 ## More Advanced Example

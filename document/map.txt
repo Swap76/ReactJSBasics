@@ -8,6 +8,6 @@ const b = a.map((value) => { // Example this creates a array of squares using a
   return value*value;
 });
 
-This type of programming is called as functional programming in such we dont care about what under the hood happens we are only conserned with the output and input
+This type of programming is called as functional programming in such we don't care about what under the hood happens we are only concerned with the output and input
 
 Examples are shown in test.js

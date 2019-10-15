@@ -1,5 +1,5 @@
 This will return the array except a specific element this filters the remaining things 
 
 const b = a.filter((value) => {
-  retun value!=2
+  return value!=2
 });
