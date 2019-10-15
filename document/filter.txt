@@ -1,5 +1,10 @@
-This will return the array except a specific element this filters the remaining things 
+This will return a new array containing containing all elements that pass a given prediacate function.
+In the example below, the returned array will contain each value but the 2.
+
+a = [1,2,3,4]
 
 const b = a.filter((value) => {
   retun value!=2
 });
+
+// b will be [1,3,4]
