@@ -1,14 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Resume from './Resume/Resume';
-import App from './App/App';
-import Header from './Header/Header';
-import ProfileHeader from './ProfileHeader/ProfileHeader';
-import MainContent from './MainContent/MainContent';
-import Weather from './Weather/Weather';
-import AdvanceData from './AdvanceData/AdavanceData';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App/App";
+import Header from "./Header/Header";
+import ProfileHeader from "./ProfileHeader/ProfileHeader";
+import MainContent from "./MainContent/MainContent";
+import Weather from "./Weather/Weather";
+import AdvanceData from "./AdvanceData/AdavanceData";
+import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -21,19 +20,19 @@ const MainPage = () => {
   };
   const mainPage = (
     <div>
-      <Header/>
+      <Header />
       <ProfileHeader {...data} />
       <MainContent {...data} />
-      <Weather/>
-      <AdvanceData/>
-      <App/>
+      <Weather />
+      <AdvanceData />
+      <App />
     </div>
   );
-  
-  return mainPage;
-}
 
-ReactDOM.render(<MainPage/>, document.getElementById('root')); // This way we can render the element
+  return mainPage;
+};
+
+ReactDOM.render(<MainPage />, document.getElementById("root")); // This way we can render the element
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
