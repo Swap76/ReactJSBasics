@@ -9,6 +9,7 @@ import MainContent from './MainContent/MainContent';
 import Weather from './Weather/Weather';
 import AdvanceData from './AdvanceData/AdavanceData';
 import * as serviceWorker from './serviceWorker';
+import BasicComponent from './BasicComponent/BasicComponent';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -27,6 +28,7 @@ const MainPage = () => {
       <Weather/>
       <AdvanceData/>
       <App/>
+      <BasicComponent />
     </div>
   );
   
