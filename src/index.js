@@ -22,7 +22,7 @@ const MainPage = () => {
   };
   const mainPage = (
     <div>
-      <Header/>
+      <Header />
       <ProfileHeader {...data} />
       <MainContent {...data} />
       <Weather/>
@@ -31,11 +31,11 @@ const MainPage = () => {
       <BasicComponent />
     </div>
   );
-  
-  return mainPage;
-}
 
-ReactDOM.render(<MainPage/>, document.getElementById('root')); // This way we can render the element
+  return mainPage;
+};
+
+ReactDOM.render(<MainPage />, document.getElementById("root")); // This way we can render the element
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
