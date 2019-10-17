@@ -1,13 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App/App";
-import Header from "./Header/Header";
-import ProfileHeader from "./ProfileHeader/ProfileHeader";
-import MainContent from "./MainContent/MainContent";
-import Weather from "./Weather/Weather";
-import AdvanceData from "./AdvanceData/AdavanceData";
-import * as serviceWorker from "./serviceWorker";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import Resume from './Resume/Resume';
+import App from './App/App';
+import Header from './Header/Header';
+import ProfileHeader from './ProfileHeader/ProfileHeader';
+import MainContent from './MainContent/MainContent';
+import Weather from './Weather/Weather';
+import AdvanceData from './AdvanceData/AdavanceData';
+import BasicComponent from './BasicComponent/BasicComponent';
+import * as serviceWorker from './serviceWorker';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -23,9 +25,10 @@ const MainPage = () => {
       <Header />
       <ProfileHeader {...data} />
       <MainContent {...data} />
-      <Weather />
-      <AdvanceData />
-      <App />
+      <Weather/>
+      <AdvanceData/>
+      <App/>
+      <BasicComponent />
     </div>
   );
 
