@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Resume from './Resume/Resume';
 import App from './App/App';
 import Header from './Header/Header';
 import ProfileHeader from './ProfileHeader/ProfileHeader';
@@ -10,7 +9,9 @@ import Weather from './Weather/Weather';
 import AdvanceData from './AdvanceData/AdavanceData';
 import BasicComponent from './BasicComponent/BasicComponent';
 import * as serviceWorker from './serviceWorker';
-
+import KnowFlux from './Flux/KnowFlux';
+import MonkeyController from './Flux/MonkeyController'
+import MonkeyView from './Flux/MonkeyView';
 // ReactDOM.render(<App />, document.getElementById('root'));
 
 // ReactDOM.render(<Resume/>, document.getElementById('root')); // This way we can render the element
@@ -29,6 +30,9 @@ const MainPage = () => {
       <AdvanceData/>
       <App/>
       <BasicComponent />
+      <KnowFlux />
+      <MonkeyController/>
+      <MonkeyView />
     </div>
   );
 
